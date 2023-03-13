@@ -216,6 +216,28 @@ const UserDataFrom = () => {
                                     }
                                 </>
 
+                                &&
+                                <>
+                                    {
+                                        email && style === "New Styles" && age === "18-30 years" && hairSize === "long" ?
+                                            <div>
+                                                <div className='grid grid-cols-3 gap-5'>
+                                                    <div>
+                                                        <img src="https://i1.wp.com/therighthairstyles.com/wp-content/uploads/2015/03/18-brushed-back-taper-fade.jpg?resize=500%2C482&ssl=1" alt="" srcset="" />
+                                                    </div>
+                                                    <div>
+                                                        <img src="https://cdn.luxe.digital/media/2020/05/22092123/best-medium-length-hairstyles-men-slicked-back-undercut-luxe-digital.jpg" alt="" srcset="" />
+                                                    </div>
+                                                    <div>
+                                                        <img src="https://cdn.luxe.digital/media/2020/05/22092123/best-medium-length-hairstyles-men-slicked-back-undercut-luxe-digital.jpg" alt="" srcset="" />
+                                                    </div>
+
+                                                </div>
+
+                                            </div> : <><img className='ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
+                                    }
+                                </>
+
 
 
 
@@ -224,7 +246,7 @@ const UserDataFrom = () => {
 
                                 <>
                                     {
-                                        email && style === "Unique Style" && age === "46-60 years" && hairSize === "Small" ?
+                                        email && style === "Unique Style" && age === "46-60 years" && hairSize === "midium" ?
                                             <div>
                                                 <div className='grid grid-cols-3 gap-5'>
                                                     <div>
