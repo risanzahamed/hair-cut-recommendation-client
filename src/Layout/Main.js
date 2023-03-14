@@ -1,3 +1,6 @@
+import FaceAi from "../Pages/FaceAi/FaceAi";
+import About from "../Pages/Home/Section/About";
+import Service from "../Pages/Service/Service";
 import Login from "../Shared/Login/Login";
 import Register from "../Shared/Register/Register";
 
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
         {
           path: "/home",
           element: <Home />,
+        },
+        {
+          path: "/service",
+          element: <Service />,
+        },
+        {
+          path: "/face-ai",
+          element: <FaceAi />,
+        },
+        {
+          path: "/about-us",
+          element: <About />,
         },
         {
           path: "/login",
