@@ -32,7 +32,7 @@ const Header = () => {
 
                         <div className="lg:hidden">
 
-                            <button className="text-black p-3 outline-none  rounded-md focus:border-gray-400 focus:border"
+                            <button className="text-white p-3 outline-none  rounded-md focus:border-gray-400 focus:border"
                                 onClick={() => setState(!state)}
                             >
                                 {

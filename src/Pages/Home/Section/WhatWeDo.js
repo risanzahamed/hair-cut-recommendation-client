@@ -45,9 +45,9 @@ const WhatWeDo = () => {
                             </div>
                         </div>
 
-                        <div class="relative w-full overflow-hidden lg:order-1 h-96 lg:h-auto lg:w-5/12">
+                        <div class="relative w-full align-middle justify-center lg:m-0  ml-44 overflow-hidden lg:order-1  lg:h-auto lg:w-5/12">
                             <div>
-                                <img class="object-cover" src="https://demo.webtend.net/html/qutter/assets/images/about/what-we-do.jpg" alt="" />
+                                <img class="object-cover h-96 lg:h-full" src="https://demo.webtend.net/html/qutter/assets/images/about/what-we-do.jpg" alt="" />
                             </div>
                         </div>
                     </div>
