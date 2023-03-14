@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import auth from '../../firebase/firebase.config';
 
 const Header = () => {
-    const { user: { email, role } } = useSelector(state => state.auth)
+    const { user: { email } } = useSelector(state => state.auth)
     const dispatch = useDispatch()
 
     const [state, setState] = useState(false)
@@ -52,25 +52,17 @@ const Header = () => {
                     <div className={`flex-1 justify-between flex-row-reverse lg:overflow-visible lg:flex lg:pb-0 lg:pr-0 lg:h-auto ${state ? 'h-screen pb-20 overflow-auto pr-4' : 'hidden'}`}>
                         <div>
                             <ul className="flex mt-1 flex-col-reverse space-x-0  lg:flex-row">
-                                
 
-                                {
-                                    email && role && <li className="mt-4 lg:p-8 p-3 lg:mt-0">
-                                        <Link to='/dashboard' cursor-pointer="true" className="py-3 px-4 text-center text-white bg-white  rounded-xl hover:bg-gray-600  shadow block lg:inline">
-                                            Dashboard
-                                        </Link>
-                                    </li>
-                                }
 
-                                {
-                                    email && !role && <li className="mt-4 lg:p-8 p-3 lg:mt-0">
-                                        <Link to='' cursor-pointer="true" className="py-3 px-4 text-center text-white bg-blue-700  rounded-xl hover:bg-gray-600  shadow block lg:inline">
-                                          Start Analyzing
-                                        </Link>
-                                    </li>
-                                }
 
-                                {
+                                <li className="mt-4 lg:p-8 p-3 lg:mt-0">
+                                    <Link to='' cursor-pointer="true" className="py-3 px-4 text-center text-white bg-blue-700  rounded-xl hover:bg-gray-600  shadow block lg:inline">
+                                        Start Analyzing
+                                    </Link>
+                                </li>
+
+
+                                {/* {
                                     email ?
 
                                         <li className="mt-4 lg:p-8 p-3 lg:mt-0">
@@ -92,15 +84,15 @@ const Header = () => {
                                         </>
 
 
-                                }
+                                } */}
 
                             </ul>
                         </div>
                         <div className="flex-1">
                             <ul className="justify-center p-6 text-white font-semibold items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
-                                <Link  cursor-pointer="false" className='p-3 ' to='/'><li>Home</li></Link>
-                                <Link  cursor-pointer="true" className='p-3' to='/products'><li>Products</li></Link>
-                                <Link  cursor-pointer="true" className='p-3' to='/blog'><li>Blog</li></Link>
+                                <Link cursor-pointer="false" className='p-3 ' to='/'><li>Home</li></Link>
+                                <Link cursor-pointer="true" className='p-3' to='/products'><li>Products</li></Link>
+                                <Link cursor-pointer="true" className='p-3' to='/blog'><li>Blog</li></Link>
                             </ul>
                         </div>
                     </div>
