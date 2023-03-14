@@ -201,8 +201,6 @@ const UserDataFrom = () => {
                                 : <><img className='ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
 
                                 &&
-
-
                                 
 
                                 <>

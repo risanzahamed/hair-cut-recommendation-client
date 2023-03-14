@@ -91,8 +91,9 @@ const Header = () => {
                         <div className="flex-1">
                             <ul className="justify-center p-6 text-white font-semibold items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
                                 <Link cursor-pointer="false" className='p-3 ' to='/'><li>Home</li></Link>
-                                <Link cursor-pointer="true" className='p-3' to='/products'><li>Products</li></Link>
-                                <Link cursor-pointer="true" className='p-3' to='/blog'><li>Blog</li></Link>
+                                <Link cursor-pointer="true" className='p-3' to='/service'><li>Service</li></Link>
+                                <Link cursor-pointer="true" className='p-3' to='/about-us'><li>About Us</li></Link>
+                                <Link cursor-pointer="true" className='p-3' to='/face-ai'><li>Face Recognition Ai</li></Link>
                             </ul>
                         </div>
                     </div>
