@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         {
           path: "/service",
           element: <Service />,
-          loader : () =>  fetch ('http://localhost:5000/hair-service')
+          loader : () =>  fetch ('https://hair-cut-recommendation-server.vercel.app/hair-service')
         },
         {
           path: "/face-ai",
