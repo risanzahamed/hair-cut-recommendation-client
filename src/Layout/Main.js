@@ -24,6 +24,7 @@ const router = createBrowserRouter([
         {
           path: "/service",
           element: <Service />,
+          loader : () =>  fetch ('http://localhost:5000/hair-service')
         },
         {
           path: "/face-ai",

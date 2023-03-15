@@ -2,15 +2,16 @@ import React from 'react';
 
 const OurTeam = () => {
     return (
-        <div className="px-4 py-16 mx-auto  lg:w-[1450px]  md:px-24 lg:px-8 lg:py-20">
-            <div className=" mb-10 md:mx-auto sm:text-center  md:mb-12">
-                <h2 className=" mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-7xl md:mx-auto">
+        <div className="px-4 py-4 mx-auto  lg:w-[1450px]  md:px-24 lg:px-8 lg:py-20">
+            <div data-aos="zoom-in" className=" mb-10 md:mx-auto sm:text-center  md:mb-12">
+                <h2 className=" pb-10 mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-7xl md:mx-auto">
                     MEET OUR SPECIALIST
                 </h2>
             </div>
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
-                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <div data-aos="fade-up"
+                        className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
                             className="object-cover w-full"
                             src="https://demo.webtend.net/html/qutter/assets/images/team/member1.jpg"
@@ -18,10 +19,10 @@ const OurTeam = () => {
                         />
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-2xl font-bold text-gray-100">
-                            Scott K. Henderson
+                                Scott K. Henderson
                             </p>
                             <p className="mb-4 text-md text-orange-600">Hair Specialist</p>
-                           
+
                             <div className="flex items-center justify-center space-x-3">
                                 <a
                                     href="/"
@@ -44,7 +45,8 @@ const OurTeam = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <div data-aos="fade-up"
+                        className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
                             className="object-cover w-full"
                             src="https://demo.webtend.net/html/qutter/assets/images/team/member2.jpg"
@@ -52,7 +54,7 @@ const OurTeam = () => {
                         />
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-2xl font-bold text-gray-100">
-                            Donald J. Cuellar
+                                Donald J. Cuellar
                             </p>
                             <p className="mb-4 text-md text-orange-600">Hair Specialist</p>
                             <div className="flex items-center justify-center space-x-3">
@@ -77,7 +79,8 @@ const OurTeam = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <div data-aos="fade-up"
+                        className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
                             className="object-cover w-full"
                             src="https://demo.webtend.net/html/qutter/assets/images/team/member3.jpg"
@@ -85,7 +88,7 @@ const OurTeam = () => {
                         />
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-2xl font-bold text-gray-100">
-                            Nicholas E. Sapien
+                                Nicholas E. Sapien
                             </p>
                             <p className="mb-4 text-md text-orange-600">Hair Specialist</p>
                             <div className="flex items-center justify-center space-x-3">
@@ -110,7 +113,8 @@ const OurTeam = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                    <div data-aos="fade-up"
+                        className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                         <img
                             className="object-cover w-full "
                             src="https://demo.webtend.net/html/qutter/assets/images/team/member4.jpg"
@@ -118,7 +122,7 @@ const OurTeam = () => {
                         />
                         <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-2xl font-bold text-gray-100">
-                            Richard L. Miller
+                                Richard L. Miller
                             </p>
                             <p className="mb-4 text-md text-orange-600">Hair Specialist</p>
                             <div className="flex items-center justify-center space-x-3">

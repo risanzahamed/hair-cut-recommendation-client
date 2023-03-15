@@ -1,0 +1,37 @@
+[
+    {
+      
+      "categoryName": "Hair Cut",
+      "image":"https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price":"$46",
+      "description":"Get a fresh new look with our expert hair cutting services. Our skilled stylists will work with you to create a style that complements your face shape and personal style."
+    },
+    {
+      
+      "categoryName": "Shaving Style",
+      "image":"https://images.pexels.com/photos/4969874/pexels-photo-4969874.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "resalePrice":"$30",
+      "description":"Whether you prefer a clean-shaven look or a more rugged beard, our shaving services can help you achieve your desired style. We use top-quality products to ensure a comfortable and smooth shave every time."
+    }
+    ,
+    {
+      
+      "categoryName": "Spa & GYM",
+      "image":"https://images.pexels.com/photos/161477/treatment-finger-keep-hand-161477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "originalPrice":"$100",
+      "description":"Relax and rejuvenate your body and mind with our luxurious spa treatments and state-of-the-art gym facilities. From soothing massages to invigorating workouts, we have everything you need to look and feel your best."
+    },
+    {
+      
+      "categoryName": "Body Treatments",
+      "image":"https://images.pexels.com/photos/5266394/pexels-photo-5266394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "resalePrice":"$100",
+      "description":"Treat yourself to a pampering session with our range of body treatments. From body scrubs to wraps and massages, our skilled therapists will help you achieve soft, glowing skin and a relaxed mind."
+    },
+    {
+      "categoryName": "Hair Color",
+      "image":"https://images.pexels.com/photos/3993331/pexels-photo-3993331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "resalePrice":"$60",
+      "description":"Transform your look with our expert hair coloring services. Whether you want a subtle change or a bold new hue, our experienced colorists will help you achieve the perfect shade to enhance your natural beauty."
+    }
+  ]

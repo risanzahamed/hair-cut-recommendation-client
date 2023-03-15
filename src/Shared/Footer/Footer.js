@@ -11,7 +11,7 @@ const Footer = () => {
                             <img className="w-48 bg-black p-2" src='https://radiustheme.com/demo/wordpress/themes/salion/wp-content/themes/salion/assets/img/logo-light.png' alt="" />
                         </Link>
 
-                        <p className="text-base leading-relaxed text-gray-600 mt-7">Rent Roll offers eco-friendly transportation options with our kick scooters and bicycles. Our products are sustainable and designed for riders of all ages and skill levels. Reduce your carbon footprint and join us in our mission to ride green.</p>
+                        <p className="text-base leading-relaxed text-gray-600 mt-7">At Salion, we believe that everyone deserves to look and feel their best. That's why we offer a full range of hair services designed to help you achieve your perfect look. </p>
 
                         <a href="#" title="" className="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7">
                             <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

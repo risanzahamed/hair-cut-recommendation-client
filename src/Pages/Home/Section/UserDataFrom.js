@@ -30,14 +30,14 @@ const UserDataFrom = () => {
 
     return (
         <div>
-            <div className="mx-auto lg:w-[1550px] mt-14 mb-14  overflow-hidden">
-                <h2 className='text-7xl text-center font-semibold'>Analyze a best hair haircut</h2>
-                <div className="py-10 sm:py-16 lg:py-24 ">
+            <div data-aos="zoom-in" className="mx-auto lg:w-[1550px] mt-14 mb-14  overflow-hidden">
+                <h2 class="text-4xl font-bold text-black sm:text-4xl xl:text-5xl text-center">Analyze a best hair haircut</h2>
+                <div className=" sm:py-16 lg:py-24 ">
                     <div className="grid items-center  grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
                         {
                             email && style && age && hairSize ? <>
 
-                                <div >
+                                <div className='p-5'>
                                     <div> <h2 className='text-2xl text-blue-400 font-semibold'>Hi {name} , Your Age is {age} , Your hair Size is {hairSize} , and Your Selected Style is {style}</h2></div>
                                     <div><p className='text-xl mt-3 mb-4'>Here are some recomandation from us for your hair cut</p></div>
                                 </div>
@@ -143,7 +143,7 @@ const UserDataFrom = () => {
 
 
                                 <div>
-                                    <div className='grid grid-cols-3 gap-5'>
+                                    <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
                                         <div>
                                             <img src="https://i1.wp.com/therighthairstyles.com/wp-content/uploads/2015/03/18-brushed-back-taper-fade.jpg?resize=500%2C482&ssl=1" alt="" srcset="" />
                                         </div>
@@ -175,7 +175,7 @@ const UserDataFrom = () => {
 
 
                                 <div>
-                                    <div className='grid grid-cols-3 gap-5'>
+                                    <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
                                         <div>
                                             <img src="https://i.pinimg.com/originals/13/08/f1/1308f184a244549701fe4100fea404e8.jpg" alt="" srcset="" />
                                         </div>
@@ -207,7 +207,7 @@ const UserDataFrom = () => {
                                     {
                                         email && style === "Formal" && age && hairSize ?
                                             <div>
-                                                <div className='grid grid-cols-3 gap-5'>
+                                                <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
                                                     <div>
                                                         <img src="https://i.pinimg.com/originals/87/ce/0c/87ce0c9d9675ab3c851ddd866f442c39.jpg" alt="" srcset="" />
                                                     </div>
