@@ -52,15 +52,20 @@ const ChatBotms = () => {
 
                 {
 
-                    value: "React",
+                    value: "Hair Loss",
 
-                    label: "React",
+                    label: "Hair Loss",
 
-                    trigger: "React",
+                    trigger: "Hair Loss",
 
                 },
 
-                { value: "Angular", label: "Angular", trigger: "Angular" },
+                { value: "Dry Hair", label: "Dry Hair", trigger: "Dry Hair" },
+                { value: "Spit Ends", label: "Spit Ends", trigger: "Spit Ends" },
+                { value: "Oily/Greasy Hair", label: "Oily/Greasy Hair", trigger: "Oily/Greasy Hair" },
+                { value: "Frizzy Hair", label: "Frizzy Hair", trigger: "Frizzy Hair" },
+                { value: "Dull Hair", label: "Dull Hair", trigger: "Dull Hair" },
+                { value: "Heat Damaged Hair", label: "Heat Damaged Hair", trigger: "Heat Damaged Hair" },
 
             ],
 
@@ -68,11 +73,11 @@ const ChatBotms = () => {
 
         {
 
-            id: "React",
+            id: "Hair Loss",
 
             message:
 
-                "Thanks for letting your React issue, Our team will resolve your issue ASAP",
+                "If you are experiencing Hair Loss such as hair loss or thinning, it is important to consult with a dermatologist or a trichologist. Dr. Jane Smith is a renowned dermatologist with expertise in hair and scalp disorders. She recommends a thorough examination of the scalp and hair, along with blood tests to determine any underlying medical conditions. Based on the diagnosis, Dr. Smith may recommend treatments such as topical or oral medications, hair transplantation, or lifestyle changes such as a balanced diet, stress management, and exercise. It is essential to seek advice only from licensed medical professionals to avoid potential harm.",
 
             end: true,
 
@@ -80,15 +85,73 @@ const ChatBotms = () => {
 
         {
 
-            id: "Angular",
+            id: "Dry Hair",
 
             message:
 
-                "Thanks for letting your Angular issue, Our team will resolve your issue ASAP",
+                "If your hair is breaking, it may be a sign of damage or breakage caused by excessive heat styling, chemical treatments, or improper hair care. Dr. Sarah Johnson, a trichologist, recommends a hair care routine that includes gentle shampooing, deep conditioning, and avoiding heat styling tools. She may also suggest using hair products containing ingredients such as keratin, biotin, and collagen to strengthen the hair. Additionally, Dr. Johnson recommends regular trims to remove split ends and prevent further breakage. If you are experiencing severe hair breakage, it is important to seek professional advice from a licensed trichologist or dermatologist to determine the underlying cause and the best treatment options for your hair.",
 
             end: true,
 
         },
+
+        {
+
+            id: "Spit Ends",
+
+            message:
+
+                "If your hair is breaking, it may be a sign of damage or breakage caused by excessive heat styling, chemical treatments, or improper hair care. Dr. Sarah Johnson, a trichologist, recommends a hair care routine that includes gentle shampooing, deep conditioning, and avoiding heat styling tools. She may also suggest using hair products containing ingredients such as keratin, biotin, and collagen to strengthen the hair. Additionally, Dr. Johnson recommends regular trims to remove split ends and prevent further breakage. If you are experiencing severe hair breakage, it is important to seek professional advice from a licensed trichologist or dermatologist to determine the underlying cause and the best treatment options for your hair.",
+
+            end: true,
+
+        },
+        {
+
+            id: "Oily/Greasy Hair",
+
+            message:
+
+                "If your hair is breaking, it may be a sign of damage or breakage caused by excessive heat styling, chemical treatments, or improper hair care. Dr. Sarah Johnson, a trichologist, recommends a hair care routine that includes gentle shampooing, deep conditioning, and avoiding heat styling tools. She may also suggest using hair products containing ingredients such as keratin, biotin, and collagen to strengthen the hair. Additionally, Dr. Johnson recommends regular trims to remove split ends and prevent further breakage. If you are experiencing severe hair breakage, it is important to seek professional advice from a licensed trichologist or dermatologist to determine the underlying cause and the best treatment options for your hair.",
+
+            end: true,
+
+        },
+        {
+
+            id: "Frizzy Hair",
+
+            message:
+
+                "If your hair is breaking, it may be a sign of damage or breakage caused by excessive heat styling, chemical treatments, or improper hair care. Dr. Sarah Johnson, a trichologist, recommends a hair care routine that includes gentle shampooing, deep conditioning, and avoiding heat styling tools. She may also suggest using hair products containing ingredients such as keratin, biotin, and collagen to strengthen the hair. Additionally, Dr. Johnson recommends regular trims to remove split ends and prevent further breakage. If you are experiencing severe hair breakage, it is important to seek professional advice from a licensed trichologist or dermatologist to determine the underlying cause and the best treatment options for your hair.",
+
+            end: true,
+
+        },
+        {
+
+            id: "Dull Hair",
+
+            message:
+
+                "If your hair is breaking, it may be a sign of damage or breakage caused by excessive heat styling, chemical treatments, or improper hair care. Dr. Sarah Johnson, a trichologist, recommends a hair care routine that includes gentle shampooing, deep conditioning, and avoiding heat styling tools. She may also suggest using hair products containing ingredients such as keratin, biotin, and collagen to strengthen the hair. Additionally, Dr. Johnson recommends regular trims to remove split ends and prevent further breakage. If you are experiencing severe hair breakage, it is important to seek professional advice from a licensed trichologist or dermatologist to determine the underlying cause and the best treatment options for your hair.",
+
+            end: true,
+
+        },
+        {
+
+            id: "Heat Damaged Hair",
+
+            message:
+
+                "If your hair is breaking, it may be a sign of damage or breakage caused by excessive heat styling, chemical treatments, or improper hair care. Dr. Sarah Johnson, a trichologist, recommends a hair care routine that includes gentle shampooing, deep conditioning, and avoiding heat styling tools. She may also suggest using hair products containing ingredients such as keratin, biotin, and collagen to strengthen the hair. Additionally, Dr. Johnson recommends regular trims to remove split ends and prevent further breakage. If you are experiencing severe hair breakage, it is important to seek professional advice from a licensed trichologist or dermatologist to determine the underlying cause and the best treatment options for your hair.",
+
+            end: true,
+
+        },
+
+
 
     ];
     return (
@@ -99,15 +162,15 @@ const ChatBotms = () => {
                     <div className="px-4 mb-24 bg-black mx-auto overflow-hidden">
                         <div className="py-10 sm:py-16 lg:w-[1450px]  mx-auto pt-10 pb-10 lg:py-24 ">
                             <div className="grid items-center  grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
-                                <div data-aos="fade-right">
+                                <div >
                                     <h2 className="text-4xl text-white slide-up font-bold font-serif leading-none  sm:text-4xl lg:text-7xl lg:leading-tight">
-                                        Our Live Chating Feature </h2>
+                                        Our Live FAQ Feature </h2>
                                     <div className='lg:w-[500px]'>
                                         <p className=" text-2xl text-white slide-up-2 mt-8 font-sans ">
-                                            This chat feature only for who face hair issues and they what to solve it.</p>
+                                            This FAQ feature only for who face hair issues and they what to solve it.Our bot will give you some tips and suggest best doctors.</p>
                                     </div>
                                 </div>
-                                <div data-aos="fade-left" className='lg:p-0 pb-10'>
+                                <div className='lg:p-0 lg:ml-56 pb-10'>
                                     <Chatbot steps={steps} />
                                 </div>
                             </div>

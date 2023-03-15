@@ -30,7 +30,7 @@ const UserDataFrom = () => {
 
     return (
         <div>
-            <div data-aos="zoom-in" className="mx-auto lg:w-[1550px] mt-14 mb-14  overflow-hidden">
+            <div data-aos="zoom-in" className="mx-auto p-10 lg:w-[1550px] mt-14 mb-14  overflow-hidden">
                 <h2 class="text-4xl font-bold text-black sm:text-4xl xl:text-5xl text-center">Analyze a best hair haircut</h2>
                 <div className=" sm:py-16 lg:py-24 ">
                     <div className="grid items-center  grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
@@ -166,7 +166,7 @@ const UserDataFrom = () => {
                                     </div>
                                 </div>
 
-                                : <><img className='ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
+                                : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
 
                                 &&
 
@@ -198,7 +198,7 @@ const UserDataFrom = () => {
                                     </div>
                                 </div>
 
-                                : <><img className='ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
+                                : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
 
                                 &&
                                 
@@ -234,7 +234,7 @@ const UserDataFrom = () => {
                                                     </div>
                                                 </div>
 
-                                            </div> : <><img className='ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
+                                            </div> : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
                                     }
 
 
