@@ -1,7 +1,7 @@
 import React from 'react';
 import Chatbot from 'react-simple-chatbot'
 
-const ChatBotms = () => {
+const ChatBot = () => {
     const steps = [
 
         {
@@ -151,36 +151,28 @@ const ChatBotms = () => {
 
         },
 
-
-
     ];
     return (
         <div>
-
-            <div>
-                <div>
-                    <div className="px-4 mb-24 bg-black mx-auto overflow-hidden">
-                        <div className="py-10 sm:py-16 lg:w-[1450px]  mx-auto pt-10 pb-10 lg:py-24 ">
-                            <div className="grid items-center  grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
-                                <div >
-                                    <h2 className="text-4xl text-white slide-up font-bold font-serif leading-none  sm:text-4xl lg:text-7xl lg:leading-tight">
-                                        Our Live FAQ Feature </h2>
-                                    <div className='lg:w-[500px]'>
-                                        <p className=" text-2xl text-white slide-up-2 mt-8 font-sans ">
-                                            This FAQ feature only for who face hair issues and they what to solve it.Our bot will give you some tips and suggest best doctors.</p>
-                                    </div>
-                                </div>
-                                <div className='lg:p-0 lg:ml-56 pb-10'>
-                                    <Chatbot steps={steps} />
-                                </div>
+            <div className="px-4 mb-24 bg-black mx-auto overflow-hidden">
+                <div className="py-10 sm:py-16 lg:w-[1450px]  mx-auto pt-10 pb-10 lg:py-24 ">
+                    <div className="grid items-center  grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
+                        <div >
+                            <h2 className="text-4xl text-white slide-up font-bold font-serif leading-none  sm:text-4xl lg:text-7xl lg:leading-tight">
+                                Our Live FAQ Feature </h2>
+                            <div className='lg:w-[500px]'>
+                                <p className=" text-2xl text-white slide-up-2 mt-8 font-sans ">
+                                    This FAQ feature only for who face hair issues and they what to solve it.Our bot will give you some tips and suggest best doctors.</p>
                             </div>
+                        </div>
+                        <div className='lg:p-0 lg:ml-56 pb-10'>
+                            <Chatbot steps={steps} />
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };
 
-export default ChatBotms;
+export default ChatBot;

@@ -1,3 +1,4 @@
+import FaceDd from "../FaceApi/FaceDd";
 import FaceAi from "../Pages/FaceAi/FaceAi";
 import About from "../Pages/Home/Section/About";
 import Service from "../Pages/Service/Service";
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
         },
         {
           path: "/face-ai",
-          element: <FaceAi />,
+          element: <FaceDd />,
         },
         {
           path: "/about-us",

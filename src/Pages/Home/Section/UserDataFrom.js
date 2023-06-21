@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useRegisterMutation } from '../../../Redux/features/authApi';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const UserDataFrom = () => {
 
@@ -145,100 +146,131 @@ const UserDataFrom = () => {
                                 <div>
                                     <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
                                         <div>
-                                            <img src="https://i1.wp.com/therighthairstyles.com/wp-content/uploads/2015/03/18-brushed-back-taper-fade.jpg?resize=500%2C482&ssl=1" alt="" srcset="" />
+                                            <PhotoProvider>
+                                                <PhotoView src="https://i1.wp.com/therighthairstyles.com/wp-content/uploads/2015/03/18-brushed-back-taper-fade.jpg?resize=500%2C482&ssl=1" alt="" srcset="">
+
+                                                    <img src="https://i1.wp.com/therighthairstyles.com/wp-content/uploads/2015/03/18-brushed-back-taper-fade.jpg?resize=500%2C482&ssl=1" alt="" srcset="" />
+
+                                                </PhotoView>
+                                            </PhotoProvider>
                                         </div>
                                         <div>
-                                            <img src="https://cdn.luxe.digital/media/2020/05/22092123/best-medium-length-hairstyles-men-slicked-back-undercut-luxe-digital.jpg" alt="" srcset="" />
+                                            <PhotoProvider>
+                                                <PhotoView src="https://cdn.luxe.digital/media/2020/05/22092123/best-medium-length-hairstyles-men-slicked-back-undercut-luxe-digital.jpg" alt="" srcset="">
+
+                                                    <img src="https://cdn.luxe.digital/media/2020/05/22092123/best-medium-length-hairstyles-men-slicked-back-undercut-luxe-digital.jpg" alt="" srcset="" />
+                                                </PhotoView>
+                                            </PhotoProvider>
                                         </div>
                                         <div>
-                                            <img src="https://i.pinimg.com/736x/ad/e1/23/ade123182a589cf8a2270b929c1f5cc1.jpg" alt="" srcset="" />
+                                            <PhotoProvider>
+                                                <PhotoView src="https://i.pinimg.com/736x/ad/e1/23/ade123182a589cf8a2270b929c1f5cc1.jpg" alt="" srcset="">
+
+                                                    <img src="https://i.pinimg.com/736x/ad/e1/23/ade123182a589cf8a2270b929c1f5cc1.jpg" alt="" srcset="" />
+                                                </PhotoView>
+                                            </PhotoProvider>
                                         </div>
                                         <div>
-                                            <img src="https://content.latest-hairstyles.com/wp-content/uploads/mens-medium-haircut-straight-hard-part.jpg" alt="" srcset="" />
+                                            <PhotoProvider>
+                                                <PhotoView src="https://content.latest-hairstyles.com/wp-content/uploads/mens-medium-haircut-straight-hard-part.jpg" alt="" srcset="">
+
+                                                    <img src="https://content.latest-hairstyles.com/wp-content/uploads/mens-medium-haircut-straight-hard-part.jpg" alt="" srcset="" />
+                                                </PhotoView>
+                                            </PhotoProvider>
                                         </div>
                                         <div>
-                                            <img src="https://www.menshairstyletrends.com/wp-content/uploads/2016/02/agusbarber__and-mid-fade-and-longer-textuerd-hair-on-top.jpg" alt="" srcset="" />
+                                            <PhotoProvider>
+                                                <PhotoView src="https://www.menshairstyletrends.com/wp-content/uploads/2016/02/agusbarber__and-mid-fade-and-longer-textuerd-hair-on-top.jpg" alt="" srcset="">
+
+                                                    <img src="https://www.menshairstyletrends.com/wp-content/uploads/2016/02/agusbarber__and-mid-fade-and-longer-textuerd-hair-on-top.jpg" alt="" srcset="" />
+                                                </PhotoView>
+                                            </PhotoProvider>
                                         </div>
 
                                         <div>
-                                            <img src="https://menshaircuts.com/wp-content/uploads/2018/05/medium-length-hairstyles-guide-tapered-pompadour.jpg" alt="" srcset="" />
+                                            <PhotoProvider>
+                                                <PhotoView src="https://menshaircuts.com/wp-content/uploads/2018/05/medium-length-hairstyles-guide-tapered-pompadour.jpg" alt="" srcset="">
+
+                                                    <img src="https://menshaircuts.com/wp-content/uploads/2018/05/medium-length-hairstyles-guide-tapered-pompadour.jpg" alt="" srcset="" />
+                                                </PhotoView>
+                                            </PhotoProvider>
                                         </div>
                                     </div>
                                 </div>
 
                                 : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
 
-                                &&
+                                    &&
 
 
-                                email && style === "Abul Style" && age && hairSize ?
+                                    email && style === "Abul Style" && age && hairSize ?
 
 
-                                <div>
-                                    <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
-                                        <div>
-                                            <img src="https://i.pinimg.com/originals/13/08/f1/1308f184a244549701fe4100fea404e8.jpg" alt="" srcset="" />
-                                        </div>
-                                        <div>
-                                            <img src="https://i.pinimg.com/originals/af/a4/4c/afa44c616abd23de2cbafd82c4d72103.jpg" alt="" srcset="" />
-                                        </div>
-                                        <div>
-                                            <img src="https://e1.pxfuel.com/desktop-wallpaper/950/687/desktop-wallpaper-10-best-short-haircuts-for-men-boy-hairstyle-2021.jpg" alt="" srcset="" />
-                                        </div>
-                                        <div>
-                                            <img src="https://www.showstoppersalon.com/wp-content/uploads/2021/03/hair-stylehair-styles-for-boys-hair-styles-men-salon-near-me-hair-boy-hair-salon-near-me-salon-in-mira-road-salons-hair-styles-for-wedding-near-me-17.jpg" alt="" srcset="" />
-                                        </div>
-                                        <div>
-                                            <img src="https://i.pinimg.com/originals/04/15/ae/0415ae3e48a473860529ea83fc32c833.jpg" alt="" srcset="" />
-                                        </div>
-
-                                        <div>
-                                            <img src="https://i.pinimg.com/originals/be/45/ee/be45ee0038a623b0cda75881c6b7d266.jpg" alt="" srcset="" />
-                                        </div>
-                                    </div>
-                                </div>
-
-                                : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
-
-                                &&
-                                
-
-                                <>
-                                    {
-                                        email && style === "Formal" && age && hairSize ?
+                                    <div>
+                                        <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
                                             <div>
-                                                <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
-                                                    <div>
-                                                        <img src="https://i.pinimg.com/originals/87/ce/0c/87ce0c9d9675ab3c851ddd866f442c39.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://i.pinimg.com/736x/6d/3a/c8/6d3ac857242df0604f73b05177919d75.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://machohairstyles.com/wp-content/uploads/2017/03/professional-hairstyle-for-men-7-1940x2048.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://menshairstyle.funtouzy.com/wp-content/uploads/2019/12/high-quiff-with-lines-design-25-Best-Men%E2%80%99s-Prom-Hairstyles.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://i.pinimg.com/originals/f0/7e/46/f07e464b0880b10ed4e6dd0b6c93e56b.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://i.pinimg.com/originals/cf/09/9d/cf099d8594c0eb728243a3c470d5a22c.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://stylemann.com/wp-content/uploads/2016/10/49-Finger-Combed-Pomp.jpg" alt="" srcset="" />
-                                                    </div>
-                                                    <div>
-                                                        <img src="https://menshairstyle.funtouzy.com/wp-content/uploads/2019/08/An-amazing-fade-haircut-01-768x768.jpg" alt="" srcset="" />
-                                                    </div>
-                                                </div>
+                                                <img src="https://i.pinimg.com/originals/13/08/f1/1308f184a244549701fe4100fea404e8.jpg" alt="" srcset="" />
+                                            </div>
+                                            <div>
+                                                <img src="https://i.pinimg.com/originals/af/a4/4c/afa44c616abd23de2cbafd82c4d72103.jpg" alt="" srcset="" />
+                                            </div>
+                                            <div>
+                                                <img src="https://e1.pxfuel.com/desktop-wallpaper/950/687/desktop-wallpaper-10-best-short-haircuts-for-men-boy-hairstyle-2021.jpg" alt="" srcset="" />
+                                            </div>
+                                            <div>
+                                                <img src="https://www.showstoppersalon.com/wp-content/uploads/2021/03/hair-stylehair-styles-for-boys-hair-styles-men-salon-near-me-hair-boy-hair-salon-near-me-salon-in-mira-road-salons-hair-styles-for-wedding-near-me-17.jpg" alt="" srcset="" />
+                                            </div>
+                                            <div>
+                                                <img src="https://i.pinimg.com/originals/04/15/ae/0415ae3e48a473860529ea83fc32c833.jpg" alt="" srcset="" />
+                                            </div>
 
-                                            </div> : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
-                                    }
+                                            <div>
+                                                <img src="https://i.pinimg.com/originals/be/45/ee/be45ee0038a623b0cda75881c6b7d266.jpg" alt="" srcset="" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
+
+                                    &&
 
 
-                                </>
+                                    <>
+                                        {
+                                            email && style === "Formal" && age && hairSize ?
+                                                <div>
+                                                    <div className='grid lg:grid-cols-3 grid-cols-1 p-5 gap-5'>
+                                                        <div>
+                                                            <img src="https://i.pinimg.com/originals/87/ce/0c/87ce0c9d9675ab3c851ddd866f442c39.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://i.pinimg.com/736x/6d/3a/c8/6d3ac857242df0604f73b05177919d75.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://machohairstyles.com/wp-content/uploads/2017/03/professional-hairstyle-for-men-7-1940x2048.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://menshairstyle.funtouzy.com/wp-content/uploads/2019/12/high-quiff-with-lines-design-25-Best-Men%E2%80%99s-Prom-Hairstyles.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://i.pinimg.com/originals/f0/7e/46/f07e464b0880b10ed4e6dd0b6c93e56b.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://i.pinimg.com/originals/cf/09/9d/cf099d8594c0eb728243a3c470d5a22c.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://stylemann.com/wp-content/uploads/2016/10/49-Finger-Combed-Pomp.jpg" alt="" srcset="" />
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://menshairstyle.funtouzy.com/wp-content/uploads/2019/08/An-amazing-fade-haircut-01-768x768.jpg" alt="" srcset="" />
+                                                        </div>
+                                                    </div>
+
+                                                </div> : <><img className='lg:ml-32' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/06/03_Image-2.jpg" alt="" /></>
+                                        }
+
+
+                                    </>
                         }
 
                     </div>
