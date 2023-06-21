@@ -37,7 +37,7 @@ const Login = () => {
                             <form onSubmit={handleSubmit(handleSignIn)} action="#" method="POST" className="mt-8">
                                 <div className="space-y-5">
                                     <div>
-                                        <label htmlFor="" className="text-base font-medium text-gray-900"> Email address </label>
+                                        <label htmlhtmlFor="" className="text-base font-medium text-gray-900"> Email address </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="email"
@@ -52,7 +52,7 @@ const Login = () => {
 
                                     <div>
                                         <div className="flex items-center justify-between">
-                                            <label htmlFor="" className="text-base font-medium text-gray-900"> Password </label>
+                                            <label htmlhtmlFor="" className="text-base font-medium text-gray-900"> Password </label>
 
                                             <a href="#" title="" className="text-sm font-medium text-blue-600 hover:underline hover:text-blue-700 focus:text-blue-700"> Forgot password? </a>
                                         </div>

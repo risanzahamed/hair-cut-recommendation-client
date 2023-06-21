@@ -13,10 +13,10 @@ const About = () => {
                 </div>
                 <div data-aos="zoom-in-up" className='flex justify-between'>
                     <div>
-                        <img className='w-80 lg:mr-3' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/03/figure1.jpg" alt="" srcset="" />
+                        <img className='w-80 lg:mr-3' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/03/figure1.jpg" alt="" srcSet="" />
                     </div>
                     <div>
-                        <img className='w-80 ml-5' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/03/figure2.jpg" alt="" srcset="" />
+                        <img className='w-80 ml-5' src="https://radiustheme.com/demo/wordpress/themes/salion/wp-content/uploads/2021/03/figure2.jpg" alt="" srcSet="" />
                     </div>
                 </div>
             </div>

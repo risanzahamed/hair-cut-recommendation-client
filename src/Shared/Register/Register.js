@@ -9,7 +9,7 @@ const Register = () => {
     const { isLoading, user: {email} } = useSelector(state => state.auth)
     const navigate = useNavigate()
     const dispatch = useDispatch()
-    const { handleSubmit, register, reset, control } = useForm();
+    const { handleSubmit, register } = useForm();
     const handleCreateCustomer = (data) => {
         console.log(data);
         dispatch(createUser({email : data.email, password : data.password}))
@@ -38,7 +38,7 @@ const Register = () => {
                             <form onSubmit={handleSubmit(handleCreateCustomer)} action="#" method="POST" className="mt-8">
                                 <div className="space-y-5">
                                     <div>
-                                        <label htmlFor="" className="text-base font-medium text-gray-900"> Full Name </label>
+                                        <label htmlhtmlFor="" className="text-base font-medium text-gray-900"> Full Name </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="text"
@@ -52,7 +52,7 @@ const Register = () => {
                                     </div>
 
                                     <div>
-                                        <label htmlFor="" className="text-base font-medium text-gray-900"> Email address </label>
+                                        <label htmlhtmlFor="" className="text-base font-medium text-gray-900"> Email address </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="email"
@@ -67,7 +67,7 @@ const Register = () => {
 
 
                                     <div>
-                                        <label htmlFor="" className="text-base font-medium text-gray-900"> Phone </label>
+                                        <label htmlhtmlFor="" className="text-base font-medium text-gray-900"> Phone </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="text"
@@ -81,7 +81,7 @@ const Register = () => {
                                     </div>
 
                                     <div>
-                                        <label htmlFor="" className="text-base font-medium text-gray-900"> Password </label>
+                                        <label htmlhtmlFor="" className="text-base font-medium text-gray-900"> Password </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="password"

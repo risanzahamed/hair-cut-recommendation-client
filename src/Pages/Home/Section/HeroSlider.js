@@ -178,8 +178,8 @@ const HeroSlider = () => {
 
                         <div data-aos="zoom-in-left" className='lg:block hidden'>
                             <div>
-                                <h1 class="mt-4 text-4xl font-semibold text-black  lg:mt-8 sm:text-6xl xl:text-5xl">Top Quality Bicycles for resell </h1>
-                                <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">When looking for top-quality bicycles, consider reputable brands like Trek, Giant, Specialized, Cannondale, and Scott. These companies are known for their innovative designs, durable materials, and exceptional performance.</p>
+                                <h1 className="mt-4 text-4xl font-semibold text-black  lg:mt-8 sm:text-6xl xl:text-5xl">Top Quality Bicycles for resell </h1>
+                                <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl">When looking for top-quality bicycles, consider reputable brands like Trek, Giant, Specialized, Cannondale, and Scott. These companies are known for their innovative designs, durable materials, and exceptional performance.</p>
                             </div>
                         </div>
                     </div>
